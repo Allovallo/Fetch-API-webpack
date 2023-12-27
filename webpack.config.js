@@ -11,6 +11,11 @@ module.exports = {
     rules: [
       { test: /\.css$/, use: ['style-loader', 'css-loader'] },
       { test: /\.ts$/, use: 'ts-loader' },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
     ],
   },
   devServer: {
