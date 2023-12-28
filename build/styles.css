@@ -5,3 +5,9 @@ body {
   background-color: yellow;
   font-family: serif;
 }
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/button.scss ***!
+  \**************************************************************************************************************/
+button {
+  background-color: red;
+}
